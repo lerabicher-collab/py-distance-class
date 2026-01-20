@@ -75,4 +75,3 @@ class Distance:
     ) -> bool:
         value = other.km if isinstance(other, Distance) else float(other)
         return self.km >= value
-
